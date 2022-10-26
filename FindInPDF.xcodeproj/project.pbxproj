@@ -11,6 +11,7 @@
 		AB11C52E29098B1C002216D3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB11C52D29098B1C002216D3 /* ContentView.swift */; };
 		AB11C53029098B1F002216D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB11C52F29098B1F002216D3 /* Assets.xcassets */; };
 		AB11C53329098B20002216D3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB11C53229098B20002216D3 /* Preview Assets.xcassets */; };
+		AB11C53A29098BA1002216D3 /* Browser.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB11C53929098BA1002216D3 /* Browser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		AB11C52D29098B1C002216D3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AB11C52F29098B1F002216D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB11C53229098B20002216D3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AB11C53929098BA1002216D3 /* Browser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Browser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				AB11C52B29098B1C002216D3 /* FindInPDFApp.swift */,
 				AB11C52D29098B1C002216D3 /* ContentView.swift */,
+				AB11C53929098BA1002216D3 /* Browser.swift */,
 				AB11C52F29098B1F002216D3 /* Assets.xcassets */,
 				AB11C53129098B20002216D3 /* Preview Content */,
 			);
@@ -139,6 +142,7 @@
 			files = (
 				AB11C52E29098B1C002216D3 /* ContentView.swift in Sources */,
 				AB11C52C29098B1C002216D3 /* FindInPDFApp.swift in Sources */,
+				AB11C53A29098BA1002216D3 /* Browser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +281,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,6 +311,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
