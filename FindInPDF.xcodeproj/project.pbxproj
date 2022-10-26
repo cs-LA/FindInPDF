@@ -21,6 +21,7 @@
 		AB11C52F29098B1F002216D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB11C53229098B20002216D3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AB11C53929098BA1002216D3 /* Browser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Browser.swift; sourceTree = "<group>"; };
+		ABF009132909B6BA0072807F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +54,7 @@
 		AB11C52A29098B1C002216D3 /* FindInPDF */ = {
 			isa = PBXGroup;
 			children = (
+				ABF009132909B6BA0072807F /* Info.plist */,
 				AB11C52B29098B1C002216D3 /* FindInPDFApp.swift */,
 				AB11C52D29098B1C002216D3 /* ContentView.swift */,
 				AB11C53929098BA1002216D3 /* Browser.swift */,
@@ -276,6 +278,7 @@
 				DEVELOPMENT_TEAM = R49U8BCC8W;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FindInPDF/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -306,6 +309,7 @@
 				DEVELOPMENT_TEAM = R49U8BCC8W;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FindInPDF/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

@@ -141,8 +141,11 @@ struct ContentView: View {
   }
   
   
+  let pdfAsVector = "https://www.soundczech.cz/temp/lorem-ipsum.pdf"
+  let pdfWithText = "https://unec.edu.az/application/uploads/2014/12/pdf-sample.pdf"
+
   func loadPDF() {
-    webView.load(URLRequest(url: URL(string: "https://www.soundczech.cz/temp/lorem-ipsum.pdf")!))
+    webView.load(URLRequest(url: URL(string: pdfWithText)!))
   }
   
 }
