@@ -12,6 +12,8 @@
 		AB11C53029098B1F002216D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB11C52F29098B1F002216D3 /* Assets.xcassets */; };
 		AB11C53329098B20002216D3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB11C53229098B20002216D3 /* Preview Assets.xcassets */; };
 		AB11C53A29098BA1002216D3 /* Browser.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB11C53929098BA1002216D3 /* Browser.swift */; };
+		AB2D00A5290A982A00A2FB62 /* PDFViewUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2D00A4290A982A00A2FB62 /* PDFViewUI.swift */; };
+		AB765036290AB68C006E0696 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB765035290AB68C006E0696 /* ContentViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		AB11C52F29098B1F002216D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB11C53229098B20002216D3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AB11C53929098BA1002216D3 /* Browser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Browser.swift; sourceTree = "<group>"; };
+		AB2D00A4290A982A00A2FB62 /* PDFViewUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFViewUI.swift; sourceTree = "<group>"; };
+		AB765035290AB68C006E0696 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 		ABF009132909B6BA0072807F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -57,7 +61,9 @@
 				ABF009132909B6BA0072807F /* Info.plist */,
 				AB11C52B29098B1C002216D3 /* FindInPDFApp.swift */,
 				AB11C52D29098B1C002216D3 /* ContentView.swift */,
+				AB765035290AB68C006E0696 /* ContentViewModel.swift */,
 				AB11C53929098BA1002216D3 /* Browser.swift */,
+				AB2D00A4290A982A00A2FB62 /* PDFViewUI.swift */,
 				AB11C52F29098B1F002216D3 /* Assets.xcassets */,
 				AB11C53129098B20002216D3 /* Preview Content */,
 			);
@@ -143,8 +149,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB11C52E29098B1C002216D3 /* ContentView.swift in Sources */,
+				AB2D00A5290A982A00A2FB62 /* PDFViewUI.swift in Sources */,
 				AB11C52C29098B1C002216D3 /* FindInPDFApp.swift in Sources */,
 				AB11C53A29098BA1002216D3 /* Browser.swift in Sources */,
+				AB765036290AB68C006E0696 /* ContentViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
